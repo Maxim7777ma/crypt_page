@@ -18,7 +18,8 @@
 }
 
 .navigation h1{
-    margin: 1rem;
+    margin-left: 2rem;
+    font-size: 30px;
     color: aliceblue;
 }
 .navigation input{
@@ -78,8 +79,10 @@ nav button img {
 
 .sidebar h2{
     margin-left: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
     color: aliceblue;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .block_a2{
@@ -361,5 +364,103 @@ nav button img {
     padding-left: 30px; /* учитывает ширину изображения и добавляет отступ слева */
     color: aliceblue;
   }
+
+
+.Market_and_Order{
+    display: flex;
+    margin: 1rem;
+    margin-top: 2rem;
+}
+
+.Market{
+    height: 25rem;
+    width: 50%;
+    background-color: #0d3c0f;
+}
+
+.Order{
+    height: 25rem;
+    width: 40%;
+    margin-left: 2rem;
+    background-color: #000000;
+    border-radius: 2rem;
+    box-shadow:-10px 8px 8px 3px rgb(234 234 234 / 10%);
+}
+
+
+.Recent_Activites{
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+}
+
+.Recent_Activites h3{
+    color: aliceblue;
+    margin-left: 1rem;
+    margin: 5px;
+    font-size: 25px;
+}
+
+.Recent_Activites img{
+    width: 3rem;
+    height: auto;
+}
+
+.Activites1{
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    
+}
+
+.Activites1 p{
+    margin-left: 2rem;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.Activites2{
+    display: flex;
+    color: aliceblue; 
+    align-items: center; 
+}
+
+.Activites2 p{
+    margin-left: 2rem;
+    font-size: 20px;
+    margin: 10px;
+}
+
+
+.History{
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    background-color: black;
+    height: 10rem;
+    width: 40%;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow:-10px 8px 8px 3px rgb(234 234 234 / 10%);
+}
+.History img{
+    width: 3rem;
+    height: auto;
+}
+.History h3{
+    font-size: 25px;
+}
+
+.History p{
+    color: azure;
+}
+
+.History a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-bottom: 6rem;
+}
 
 
